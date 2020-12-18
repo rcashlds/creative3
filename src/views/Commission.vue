@@ -39,11 +39,32 @@
       <label for="txtinput">(Optional) Describe any special requests or circumstances</label>
       <input type="text" id="txt-description" name="txtinput">
     </form>
-    <button type="button" name="order">Order</button>
+    <button name="order">Order</button>
     </div>
-  </div>
+</div>
+    <h1> Other products </h1>
+    <ProductList :products="products" />
 </div>
 </template>
+
+<script>
+import ProductList from "../components/Commission-store.vue"
+export default {
+  name: 'Home',
+  components: {
+    ProductList
+  },
+  data() {
+    return {
+    }
+  },
+  computed: {
+    products() {
+      return this.$root.$data.products;
+    }
+  },
+}
+</script>
 
 <style scoped>
 .commission {
