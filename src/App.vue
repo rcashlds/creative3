@@ -21,6 +21,8 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@import url('https://fonts.googleapis.com/css?family=Give+You+Glory');
 
 #app {
   font-family: sans-serif;
@@ -32,7 +34,7 @@
   height: 100px;
   text-align: center;
   line-height: 100px;
-  background-color: #DCDCDC;
+  background-color: #F2F4F3;
 }
 
 .footer {
